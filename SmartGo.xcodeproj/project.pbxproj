@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5246AFE41EDFF83400D53881 /* UseLess.m in Sources */ = {isa = PBXBuildFile; fileRef = 5246AFE31EDFF83400D53881 /* UseLess.m */; };
+		5246AFE71EE007BC00D53881 /* UseMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5246AFE61EE007BC00D53881 /* UseMore.m */; };
+		52AB84C51ED519A700EBEC13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AB84C41ED519A700EBEC13 /* main.m */; };
+		52AB84C81ED519A700EBEC13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AB84C71ED519A700EBEC13 /* AppDelegate.m */; };
+		52AB84CB1ED519A700EBEC13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AB84CA1ED519A700EBEC13 /* ViewController.m */; };
+		52AB84CE1ED519A700EBEC13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AB84CC1ED519A700EBEC13 /* Main.storyboard */; };
+		52AB84D01ED519A700EBEC13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AB84CF1ED519A700EBEC13 /* Assets.xcassets */; };
+		52AB84D31ED519A700EBEC13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AB84D11ED519A700EBEC13 /* LaunchScreen.storyboard */; };
+		B3C2D3FB5894F4B1B11A000F /* libPods-SmartGo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A869BB1B7DE8F8C0595BDFC /* libPods-SmartGo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2563727E90069FEA45C3E8EB /* Pods-SmartGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartGo/Pods-SmartGo.release.xcconfig"; sourceTree = "<group>"; };
+		4A869BB1B7DE8F8C0595BDFC /* libPods-SmartGo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartGo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5246AFE21EDFF83400D53881 /* UseLess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseLess.h; sourceTree = "<group>"; };
+		5246AFE31EDFF83400D53881 /* UseLess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseLess.m; sourceTree = "<group>"; };
+		5246AFE51EE007BC00D53881 /* UseMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseMore.h; sourceTree = "<group>"; };
+		5246AFE61EE007BC00D53881 /* UseMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseMore.m; sourceTree = "<group>"; };
+		52AB84C01ED519A700EBEC13 /* SmartGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AB84C41ED519A700EBEC13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52AB84C61ED519A700EBEC13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52AB84C71ED519A700EBEC13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52AB84C91ED519A700EBEC13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52AB84CA1ED519A700EBEC13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52AB84CD1ED519A700EBEC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52AB84CF1ED519A700EBEC13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52AB84D21ED519A700EBEC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52AB84D41ED519A700EBEC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C7637DB1714F77E70250437 /* Pods-SmartGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartGo/Pods-SmartGo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52AB84BD1ED519A700EBEC13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C2D3FB5894F4B1B11A000F /* libPods-SmartGo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52AB84B71ED519A700EBEC13 = {
+			isa = PBXGroup;
+			children = (
+				52AB84C21ED519A700EBEC13 /* SmartGo */,
+				52AB84C11ED519A700EBEC13 /* Products */,
+				546BB43F47792D11661899C0 /* Pods */,
+				C59D2432A67C8E3293BE2605 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52AB84C11ED519A700EBEC13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52AB84C01ED519A700EBEC13 /* SmartGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52AB84C21ED519A700EBEC13 /* SmartGo */ = {
+			isa = PBXGroup;
+			children = (
+				52AB84C61ED519A700EBEC13 /* AppDelegate.h */,
+				52AB84C71ED519A700EBEC13 /* AppDelegate.m */,
+				52AB84C91ED519A700EBEC13 /* ViewController.h */,
+				52AB84CA1ED519A700EBEC13 /* ViewController.m */,
+				52AB84CC1ED519A700EBEC13 /* Main.storyboard */,
+				52AB84CF1ED519A700EBEC13 /* Assets.xcassets */,
+				52AB84D11ED519A700EBEC13 /* LaunchScreen.storyboard */,
+				52AB84D41ED519A700EBEC13 /* Info.plist */,
+				52AB84C31ED519A700EBEC13 /* Supporting Files */,
+				5246AFE21EDFF83400D53881 /* UseLess.h */,
+				5246AFE31EDFF83400D53881 /* UseLess.m */,
+				5246AFE51EE007BC00D53881 /* UseMore.h */,
+				5246AFE61EE007BC00D53881 /* UseMore.m */,
+			);
+			path = SmartGo;
+			sourceTree = "<group>";
+		};
+		52AB84C31ED519A700EBEC13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52AB84C41ED519A700EBEC13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		546BB43F47792D11661899C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C7637DB1714F77E70250437 /* Pods-SmartGo.debug.xcconfig */,
+				2563727E90069FEA45C3E8EB /* Pods-SmartGo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C59D2432A67C8E3293BE2605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A869BB1B7DE8F8C0595BDFC /* libPods-SmartGo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52AB84BF1ED519A700EBEC13 /* SmartGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52AB84D71ED519A700EBEC13 /* Build configuration list for PBXNativeTarget "SmartGo" */;
+			buildPhases = (
+				EBA387FF1E45CB776FE76304 /* [CP] Check Pods Manifest.lock */,
+				52AB84BC1ED519A700EBEC13 /* Sources */,
+				52AB84BD1ED519A700EBEC13 /* Frameworks */,
+				52AB84BE1ED519A700EBEC13 /* Resources */,
+				174AD4C5A4C34B84DB988752 /* [CP] Embed Pods Frameworks */,
+				77489D7627E7ED4E96FE3101 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartGo;
+			productName = SmartGo;
+			productReference = 52AB84C01ED519A700EBEC13 /* SmartGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52AB84B81ED519A700EBEC13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Devl;
+				TargetAttributes = {
+					52AB84BF1ED519A700EBEC13 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = D7BX896CL3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52AB84BB1ED519A700EBEC13 /* Build configuration list for PBXProject "SmartGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52AB84B71ED519A700EBEC13;
+			productRefGroup = 52AB84C11ED519A700EBEC13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52AB84BF1ED519A700EBEC13 /* SmartGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52AB84BE1ED519A700EBEC13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AB84D31ED519A700EBEC13 /* LaunchScreen.storyboard in Resources */,
+				52AB84D01ED519A700EBEC13 /* Assets.xcassets in Resources */,
+				52AB84CE1ED519A700EBEC13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		174AD4C5A4C34B84DB988752 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartGo/Pods-SmartGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77489D7627E7ED4E96FE3101 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartGo/Pods-SmartGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA387FF1E45CB776FE76304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52AB84BC1ED519A700EBEC13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5246AFE41EDFF83400D53881 /* UseLess.m in Sources */,
+				52AB84CB1ED519A700EBEC13 /* ViewController.m in Sources */,
+				5246AFE71EE007BC00D53881 /* UseMore.m in Sources */,
+				52AB84C81ED519A700EBEC13 /* AppDelegate.m in Sources */,
+				52AB84C51ED519A700EBEC13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52AB84CC1ED519A700EBEC13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52AB84CD1ED519A700EBEC13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52AB84D11ED519A700EBEC13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52AB84D21ED519A700EBEC13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52AB84D51ED519A700EBEC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52AB84D61ED519A700EBEC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52AB84D81ED519A700EBEC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7637DB1714F77E70250437 /* Pods-SmartGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7BX896CL3;
+				INFOPLIST_FILE = SmartGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devl.SmartGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52AB84D91ED519A700EBEC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2563727E90069FEA45C3E8EB /* Pods-SmartGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7BX896CL3;
+				INFOPLIST_FILE = SmartGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devl.SmartGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52AB84BB1ED519A700EBEC13 /* Build configuration list for PBXProject "SmartGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AB84D51ED519A700EBEC13 /* Debug */,
+				52AB84D61ED519A700EBEC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52AB84D71ED519A700EBEC13 /* Build configuration list for PBXNativeTarget "SmartGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AB84D81ED519A700EBEC13 /* Debug */,
+				52AB84D91ED519A700EBEC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52AB84B81ED519A700EBEC13 /* Project object */;
+}
